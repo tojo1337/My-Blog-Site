@@ -1,8 +1,8 @@
+import bg from "../../../../public/placable/post-bg.webp";
 import Footer from "@/lib/footer/footer";
 import Header from "@/lib/header/header";
-import Nav from "@/lib/nav/nav";
-import bg from "../../../public/placable/post-bg.webp";
 import Posts from "@/lib/post/Posts";
+import Nav from "@/lib/nav/nav";
 
 export default async function page({
   params,

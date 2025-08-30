@@ -8,8 +8,8 @@ export default function Nav() {
           Start Bootstrap
         </Link>
         <button
-          className="navbar-toggler"
           type="button"
+          className="navbar-toggler"
           data-bs-toggle="collapse"
           data-bs-target="#navbarResponsive"
           aria-controls="navbarResponsive"
@@ -27,13 +27,13 @@ export default function Nav() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-lg-3 py-3 py-lg-4" href="about">
-                About
+              <Link className="nav-link px-lg-3 py-3 py-lg-4" href="posts">
+                Posts
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-lg-3 py-3 py-lg-4" href="posts">
-                Posts
+              <Link className="nav-link px-lg-3 py-3 py-lg-4" href="about">
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -43,7 +43,7 @@ export default function Nav() {
             </li>
             <li className="nav-item">
               <Link
-                className="nav-link px-lg-3 py-3 py-lg-4 btn btn-outline-light my-light-btn"
+                className="nav-link px-lg-3 py-3 py-lg-4 btn btn-outline-light nav-btn"
                 href="login"
               >
                 Login
